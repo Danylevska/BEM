@@ -9,7 +9,8 @@ body{margin: 0;
     height: 750px;
 background-color: #3b92ff;
 padding-top: 15px;
-margin: auto;}
+margin: auto;
+margin-bottom: 0;}
 
 .wrapper{width:1100px;
 min-width: 1100px;

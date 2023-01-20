@@ -1,0 +1,170 @@
+html{
+    --lightgrey:  #eceaf8;
+}
+
+body{margin: 0;
+}
+
+.outwrapper{width: 1420px;
+    height: 750px;
+background-color: #3b92ff;
+padding-top: 15px;
+margin: auto;}
+
+.wrapper{width:1100px;
+min-width: 1100px;
+background: #eceaf8;
+background: #eceaf8;
+margin: auto;
+margin-top: 50px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.header{display: grid;
+grid-template-columns: 250px 1fr 250px;}
+
+.header__logo{width: 150px;
+margin-left: 100px;
+margin-top: 10px;
+line-height: 20px;}
+
+.header__logo p{font-size: 11px;
+margin: 0;}
+.header__logo h3{margin: 0;
+font-weight: 900;
+margin-top: 20px;}
+
+.header__img{display: inline-block;
+position: absolute;
+margin-left: 100px;}
+
+.nav__menu{list-style-type: none;
+display: grid;
+grid-template-columns: repeat(4, 100px);
+justify-content: center;
+margin-top: 40px;}
+
+.nav__menu a{text-decoration: none;
+color: black;}
+
+.nav__menu a:hover{text-decoration: underline;}
+
+.header__btn{width: 150px;
+height: 50px;
+font-weight: 700;
+border-radius: 20px;
+background-color: var(--lightgrey);
+border: 1px solid #cac9cd;
+margin-top: 25px;
+margin-bottom: 10px;
+cursor: pointer;}
+
+.header__btn:hover{border: 1px solid black;}
+
+.section{display: grid;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+gap: 20px;
+justify-content: center;
+}
+
+.section__text{display: grid;
+justify-content: center;}
+
+.section__text--article{width: 520px;
+margin-left: 100px;}
+
+h1{font-size: 40px;}
+.image{text-align: center;}
+
+.section__text--leftBtn img{vertical-align: middle;
+margin-right: 5px;
+padding: 0;} 
+
+.section__text--leftBtn{width: 180px;
+height: 40px;
+margin-right: 20px;}
+
+.section__text--leftBtn:hover{background: #3b92ff;}
+
+.section__text--rightBtn:hover{background: #3b92ff;}
+
+.section__text--rightBtn{width: 150px;
+height: 40px;}
+
+.section__text--article button{background-color: black;
+color: #fff;
+font-weight: 700;
+margin-top: 20px;
+border-radius: 20px;
+cursor: pointer;
+border: none;}
+
+
+
+.image__big{width: 400px;
+    justify-content: center;}
+
+.footer{display: grid;
+grid-template-columns: repeat(8, 1fr);
+margin: 40px 60px 0 100px ;
+padding-bottom: 20px;
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+color: #b2b1b6;}
+
+.footer__learn{font-size: 12px;}
+
+.footer__zalando{font-size: 20px;
+font-weight: 600;}
+
+.footer__zalando img{vertical-align: middle;
+margin-right: 10px;}
+
+.footer__gide{margin-left: 30px;
+font-weight: 700;}
+
+.footer__delivery{text-align: center;
+font-weight: 500;
+line-height: 16px;}
+
+.footer__delivery img{transform: rotate(190deg);}
+
+.footer__plan{text-align: center;
+font-weight: 900;
+font-size: 20px;}
+
+.footer__google{text-align: center;
+font-size: 27px;
+font-weight: 500;}
+
+.footer__twitter{text-align: center;}
+
+.footer__techstars{text-align: center;
+font-weight: 700;
+font-size: 20px;}
+
+.right{
+display: inline-block;
+position: absolute;
+margin-top: -320px;
+margin-left: 1265px ;}
+
+.bottom{display: inline-block;
+position: absolute;
+margin-top: -68px;
+margin-left: 750px;}
+
+.hat{display: inline-block;
+position: absolute;
+margin-top: -740px;
+margin-left: 130px;
+box-shadow: 3px 3px 5px 3px #b6b4b4;}
+
+.footer a{text-decoration: none;
+color:  #b2b1b6;}
+
+.footer a:hover{color: black;}
+
+.footer__twitter a:hover{border-bottom: 1px solid black;}
+
